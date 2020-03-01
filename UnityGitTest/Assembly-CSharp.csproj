@@ -637,6 +637,12 @@
       <Project>{81160609-41E0-F637-4194-7065FDE1E4CC}</Project>      <Name>Aura2_Core</Name>    </ProjectReference>
     <ProjectReference Include="Aura2_Editor.csproj">
       <Project>{6AD27A78-BC27-28F6-529C-E69991D1D765}</Project>      <Name>Aura2_Editor</Name>    </ProjectReference>
+    <ProjectReference Include="Unity.Recorder.Editor.csproj">
+      <Project>{DF767576-5E08-5E0F-48C1-A0B1C40ABAAE}</Project>      <Name>Unity.Recorder.Editor</Name>    </ProjectReference>
+    <ProjectReference Include="Unity.Recorder.csproj">
+      <Project>{D7A9E150-EFE1-AF05-27F2-50583520A957}</Project>      <Name>Unity.Recorder</Name>    </ProjectReference>
+    <ProjectReference Include="Unity.Recorder.Samples.csproj">
+      <Project>{90B31A80-E093-3BC0-DC2F-D6E520FD70B7}</Project>      <Name>Unity.Recorder.Samples</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
